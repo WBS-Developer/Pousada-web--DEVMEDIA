@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans', sans-serif;
+}
+header{
+    background-color: #fff;
+    position: sticky;
+    top:0;
+}
+.topo{
+    
+    width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;    
+    padding: 20px;
+   
+}
+.topo div:first-child {
+    font-weight:bold;
+} 
+.topo span{
+    color: #7FA4D2;
+    
+}
+.topo ul{
+    display: flex;
+    justify-content: space-around;
+}
+.topo li{
+    list-style-type: none;
+    margin: 0px 20px;        
+}
+.topo a{
+    text-decoration: none;    
+}
+.apresentacao{
+    background-image: url("../img/img-fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center top -80px;
+    background-size: cover;
+    height: 630px ;
+    display: flex;
+
+}
+.apresentacao-texto{
+    background-color: rgb(7, 164, 143, 0.5) ;
+    width:550px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
