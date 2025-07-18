@@ -24,6 +24,7 @@ header{
 }
 .topo div:first-child {
     font-weight:bold;
+    font-size: 20px;
 } 
 .topo span{
     color: #7FA4D2;
@@ -37,8 +38,9 @@ header{
     list-style-type: none;
     margin: 0px 20px;        
 }
-.topo a{
-    text-decoration: none;    
+.link-topo{
+    text-decoration: none;
+    font-weight: bold;    
 }
 .apresentacao{
     background-image: url("../img/img-fundo.jpg");
@@ -51,13 +53,56 @@ header{
 }
 .apresentacao-texto{
     background-color: rgb(7, 164, 143, 0.5) ;
-    width:550px;
+    width:560px;
     height: 200px;
-    margin: auto;
+    margin: 190px auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    border-radius: 5px;
+    border: 2px solid rgb(255,255,255,0.5);
+    color: #fff;
+}
+.apresentacao-texto h1{
+    font-size: 50px;
+}
+.apresentacao-texto p{
+    font-size: 28px;
+}
+.conteudo{
+    width: 1024px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px;
+}
+.conteudo h2{
+    padding: 20px;
+}
+.conteudo p{
+    padding: 10px;
+}
+.container-quarto{
+    /*background-color:darkgrey ;*/
+    width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+}
+.quarto-tipo{
+    /*background-color: antiquewhite;*/
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 2px solid #477C76;
+}
+.quarto-tipo a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
     
 }
