@@ -82,6 +82,10 @@ header{
 .conteudo p{
     padding: 10px;
 }
+.mapa iframe{
+    width: 100%;
+    
+}
 .container-quarto{
     /*background-color:darkgrey ;*/
     width: 1024px;
@@ -127,4 +131,45 @@ header{
 .card img{
     width: 140px;
     height: 120px;
+}
+footer{
+    background-color: #49997C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_footer_01{
+    width: 1024px;
+    color: #fff;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #418D71 ;
+    
+}
+.container_footer_01 div{
+    width: 20%;
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.container_footer_01 div img{
+    margin-right: 10px;
+}
+.container_footer_01 div a {
+    text-decoration: none;
+    color: #fff;
+}
+.container_footer_01 div p{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container_footer_02{
+    background-color: #49997C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
 }
