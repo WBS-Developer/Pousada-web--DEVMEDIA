@@ -10,9 +10,16 @@
     width: 1024px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
-    padding: 30px 0px
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 40px 20px;
     
+}
+.informacao_quarto li{
+    height: 40px;
+    width: 230px;
+    text-align: left;
 }
 .container_img_quarto div{
     width: 1024px;
